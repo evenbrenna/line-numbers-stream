@@ -1,0 +1,24 @@
+{
+  "name": "line-numbers-stream",
+  "version": "0.0.0",
+  "description": "Add line numbers to a stream of text",
+  "author": {
+    "name": "Even Brenna",
+    "email": "evenbrenna@gmail.com",
+    "url": ""
+  },
+  "keywords": [
+    "stream",
+    "transform",
+    "linenumber",
+    "line",
+    "number",
+    "numbers",
+    "string"
+  ],
+  "repository": "evenbrenna/line-numbers-stream",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "license": "MIT"
+}
