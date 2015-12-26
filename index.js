@@ -10,7 +10,7 @@ lineNumAdder._transform = (chunk, enc, next) => {
 
   var lines = data.split('\n');
   this._lastLineData = lines.splice(lines.length-1,1)[0];
-
+  
   lines.forEach( (line) => {
     count += 1;
     lineNumAdder.push(count + ": " + line + '\n');
